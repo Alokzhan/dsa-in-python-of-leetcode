@@ -19,12 +19,12 @@ class Solution:
                     count += 1
                     i += 1
                 
-                # Append the count and the digit
+                
                 next_str.append(str(count))
                 next_str.append(current_str[i])
                 i += 1
             
-            # Update current_str for the next iteration
+            
             current_str = "".join(next_str)
             
         return current_str
